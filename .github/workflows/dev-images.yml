@@ -3,8 +3,6 @@ name: Docker Dev Images Build
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
     paths:
       - 'api/**'
       - 'client/**'
